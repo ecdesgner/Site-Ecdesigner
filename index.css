@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#logo{
+    margin-left: 5%;
+    color: #FFF;
+}
+#menu {
+    margin-left: 35%;
+}
+
+#menuB{
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+}
+
+#menu a{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+#menu a:hover{
+    text-decoration: underline;
+    
+}
+
+.banner{
+    
+    padding: 2%;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-image: url(banner.jpg);
+    align-items: center;
+    text-align: center;
+    opacity: 0.8;
+}
+
+#banner, h1, p{
+    color: #FFF;
+}
+
+
+
+#btnbanner{
+    text-decoration: none;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    background-color:rgb(0, 119, 255);
+    color: #FFF;
+    font-weight: bold;
+   
+    
+}
+
+#quadrado{
+    background-color:rgb(0, 119, 255);
+    text-align: center;
+    
+}
+
+#btn1{
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: blanchedalmond;
+    background-color: rgb(0, 119, 255);
+}
+
+#btn1:hover{
+    background-color: rgb(180, 150, 228);
+    
+}
+
+
+#imgnosotros, img{
+    width: 80%;
+    height: auto;
+}
+
+.bannermeio{
+    background-image: url(bannermeio.jpg);
+    margin-top: 5%;
+    padding: 0%;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    align-items: center;
+    text-align: center;
+    opacity: 0.8;
+}
+
+
+
+
+
+.mobile1, p{
+    text-align: left;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.mobile1, img{
+   width: 50%;
+    margin-top: 10%;
+   text-align: center;
+}
+
+#mobile, #bannerSitio{
+    animation:  wobble 1s alternate infinite;
+
+}
+@keyframes wobble {
+    100% {
+    transform: translateY(-20px);
+    }
+    100% {
+    transform: translateY(20px);
+    } }
+
+
+
+    .portifolio{
+        margin-top: 5%;
+        
+    }
+
+    #btnPorifolio{
+        background-color: blue;
+    }
+
+    #btnPortifolio:hover{
+        background-color: rgb(212, 184, 243);
+    }
+
+    footer{
+        text-align: center;
+        padding: 3px;
+        background-color: rgb(42, 42, 46);
+        color: white;
+        align-items: center;
+        margin-top: 10%;
+    }
+
+    @media screen and (min-width: 320px) {
+        #bloco1{
+            margin-bottom: 10%;
+            padding: 5%;
+            margin-top: 5%;
+            margin-left: 0%;
+        }
+      }
+
+
